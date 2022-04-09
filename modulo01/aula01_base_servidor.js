@@ -7,4 +7,5 @@ http.createServer((requisicao,resposta) => {
 
     resposta.write("lauricio teste primeiro servidor");
     resposta.end()
+    
 }).listen(1337);
