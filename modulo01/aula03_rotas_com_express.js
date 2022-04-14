@@ -13,10 +13,13 @@ _e dentro da arrow function temos alguns metodod para adicionar a rota
 
 */
 
+app.get("/cursos", (req,res) => {
+  res.json({cursos:"phyton"})
+});
+
 app.get("/", (req,res) => {
   res.send("lauricio teste de rota express")
 });
-
 // observação a rerquisição é o que será passado pelo usuario na url
 
 app.listen(3000, () =>{
